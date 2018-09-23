@@ -2,7 +2,8 @@
   <div>
     <header>
       <p class="brand">
-        <a href="/">Nuxt.js Study</a></p>
+        <router-link to="/">Nuxt.js Study</router-link>
+      </p>
     </header>
     <div class="container">
       <nuxt/>
@@ -28,15 +29,15 @@ a:hover {
   color : #ff0;
 }
 header {
-  background : #fc0;
-  color: black;
-  padding    : 1px 10px;
-  margin     : 0;
-  font-weight: bold;
+  background  : #fc0;
+  color       : black;
+  padding     : 1px 10px;
+  margin      : 0;
+  font-weight : bold;
 }
 header p.brand a, header p.brand a:hover {
-  color: black;
-  text-decoration: none;
+  color           : black;
+  text-decoration : none;
 }
 div.container {
   padding : 10px 20px;
