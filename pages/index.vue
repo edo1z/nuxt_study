@@ -1,6 +1,6 @@
 <template>
   <section class="container">
-    <h1>Hello Nuxt!</h1>
+    <h1>Top Page</h1>
     <ul>
       <li><router-link to="/about">about</router-link></li>
     </ul>
@@ -8,6 +8,12 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head () {
+    return {
+      title: 'Toppage'
+    }
+  }
+}
 </script>
 

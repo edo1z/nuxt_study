@@ -7,6 +7,15 @@
 </template>
 
 <script>
-export default {}
+export default {
+  asyncData (context) {
+
+  },
+  head () {
+    return {
+      title: 'About'
+    }
+  }
+}
 </script>
 

@@ -8,6 +8,11 @@
 <script>
 export default {
   props: ['error'],
-  layout: 'error_layout'
+  layout: 'error_layout',
+  head () {
+    return {
+      title: 'Error'
+    }
+  }
 }
 </script>
