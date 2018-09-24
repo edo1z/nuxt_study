@@ -2,6 +2,7 @@
   <div class="container">
     <h1 v-if="error.statusCode === 404">404 Not Found</h1>
     <h1 v-else>Error!</h1>
+    <p>{{ error.message }}</p>
     <nuxt-link to="/">ホーム</nuxt-link>
   </div>
 </template>

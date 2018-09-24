@@ -29,8 +29,8 @@
 <script>
 export default {
   //Promiseを返す
-  asyncData ({params}) {
-    return {job: 'Engineer'}
+  asyncData ({params, error}) {
+    error({statusCode: 404, message: 'ページが見つかりませんでした。。'})
   },
   data: function () {
     return {
