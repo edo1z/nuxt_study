@@ -30,7 +30,7 @@
 export default {
   //Promiseを返す
   asyncData ({params, error}) {
-    error({statusCode: 404, message: 'ページが見つかりませんでした。。'})
+    return {job: 'Engineer'}
   },
   data: function () {
     return {
