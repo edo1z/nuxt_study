@@ -21,6 +21,7 @@ body {
   color      : white;
   padding    : 0px;
   margin     : 0;
+  font-family: 'Robot';
 }
 a {
   color : #fc0;
